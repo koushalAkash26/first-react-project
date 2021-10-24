@@ -1,0 +1,27 @@
+.searchBox{
+    border:none;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.robotlist{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.robot{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(43,132,208);
+    margin:8px 8px 12px;
+    padding: 10px;
+    color: #f3eee9;
+    max-width:250px;
+    max-height:350px;
+    border-radius: 5px;
+}
+.robot:hover{
+     transform: scale(1.05); 
+    transition: 200ms linear; 
+}
